@@ -2,7 +2,7 @@
 void setup() {
   size(1500,1000);
   
-  String image = "./imagenes/spots.jpg";
+  String image = "../images/ducks.jpg";
   
   SobelEdgeDetector sed = new SobelEdgeDetector(image);
   
